@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "MathJax Example"
+title: "Example"
 modified:
 categories: blog
 excerpt:
-tags: []
+tags: ['machine learning', 'deep learning']
 image:
   feature:
 date: 2015-08-10T08:08:50-04:00
@@ -28,5 +28,7 @@ Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block
 
 Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
 \\[ \frac{1}{n^{2}} \\]
+
+\\[ \sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6} \\]
 
 The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become `\\[ ... \\]` and `\\( ... \\)` for inline and block maths respectively.
