@@ -1,14 +1,18 @@
 // TYPOGRAPHY ================================================
 $base-font                : 'source-sans-pro', sans-serif;
+//$base-font                : 'Merriweather', sans-serif;
 $heading-font             : $base-font;
 $caption-font             : $base-font;
 $code-font                : 'source-code-pro', monospace;
-$alt-font                 : 'volkhov', serif;
+$alt-font                 : Arial; // 'volkhov', 
 
+//$doc-font-size            : 16;
+//$doc-line-height          : 24;
 $doc-font-size            : 16;
 $doc-line-height          : 24;
 
-$border-radius            : 3px;
+//$border-radius            : 3px;
+$border-radius            : 0px;
 
 
 // set-up the body font-size / line-height
