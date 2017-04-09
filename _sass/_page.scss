@@ -191,6 +191,12 @@ span + .entry-title {
 .entry-content {
 
 	@include span-columns(12);
+	float: inherit !important;	
+	margin-left: auto !important;
+	margin-right: auto !important;
+
+	p {
+	}
 
 	p:first-child {
 		margin-top: 0;
